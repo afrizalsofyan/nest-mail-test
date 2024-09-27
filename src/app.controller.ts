@@ -9,7 +9,7 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
-  @Get('test')
+  @Get('testing1')
   testSend() {
     return this.appService.testMail();
   }
